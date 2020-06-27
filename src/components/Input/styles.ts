@@ -11,19 +11,13 @@ export const Container = styled.div<IContainerProps>`
 
   background: #fff;
   border-radius: 8px;
+  border: 2px solid #fff;
   padding: 18px 24px;
   width: 100%;
   font-size: 16px;
 
   & + div {
     margin-top: 24px;
-  }
-
-  h1 {
-    margin-bottom: 40px;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 36px;
   }
 
   ${props =>
